@@ -49,7 +49,7 @@ The filter.py in the two folders records the implementation of **hybrid importan
 
 ### Baseline methods
 
-We compare HEFR to random selection and three feature selection methods to observe how many features each method needs to select to reach the First Equivalent Point (**FEP**). For the baselines, we apply the chi_square and reliefF function in the skfeature library. As for the RFE algorithm, it is the representation of our method when $\alpha$ is equal to 0.
+We compare HEFR to random selection and three feature selection methods (RFE, ChiSquare, and ReliefF) to observe how many features each method needs to select to reach the First Equivalent Point (**FEP**). For the baselines ChiSquare and ReliefF, we apply the chi_square and reliefF function in the skfeature library. As for the RFE algorithm, it is the representation of our method when $\alpha$ is equal to 0.
 
 ## Acknowledgment
 Many thanks to the code contribution of [*"Ignorance and Prejudice" in Software Fairness*](https://ieeexplore.ieee.org/document/9402057), our experiments are based on the work of this paper.
