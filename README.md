@@ -1,7 +1,7 @@
 # Less is More: Feature Engineering for Fairness and Performance of Machine Learning Software
 
 
-This repository stores our experimental codes for the paper “Less is More: Feature Engineering for Fairness and Performance of Machine Learning Software”，HEFR is short for the method we propose in this paper: *Hibrid_importance and Early_validation based Feature Ranking*. The experimental part of our work is divided into two parts - empirical research and evaluation:
+This repository stores our experimental codes for the paper “Less is More: Feature Engineering for Fairness and Performance of Machine Learning Software”, HEFR is short for the method we propose in this paper: *Hibrid_importance and Early_validation based Feature Ranking*. The experimental part of our work is divided into two parts - empirical research and evaluation:
 
 
 
