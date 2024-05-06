@@ -189,7 +189,8 @@ def runall():
     datasetnamelist = [['adult', 'race'], ['adult', 'sex'], ['bank', 'age'], ['german', 'age'], ['german', 'sex'], ['compas', 'sex'], ['compas', 'race'], ['meps', 'RACE'], ['default', 'sex'], ['home', 'sex']]
     for i in datasetnamelist:
         collectdata(i[0], i[1])
-
+    # from statsmodels.stats.multitest import multipletests
+    # When the Wilcoxon rank sum test p-value of the same indicator in ten scenarios is obtained, we use multipletests(using the method "fdr_by") to make adjustments to the p-value
 
 
 if __name__ == '__main__':
