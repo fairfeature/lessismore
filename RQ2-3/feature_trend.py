@@ -336,6 +336,8 @@ def drawFig(datasetname,protectedattribute,filepath):
 
     plt.show()
 
+    #from statsmodels.stats.multitest import multipletests
+    #When the Mann-Kendall test p-value of the same indicator in ten scenarios is obtained, we use multipletests(using the method "fdr_by") to make adjustments to the p-value
 
 def runall():
     datasetnamelist = [['adult','race'], ['adult','sex'], ['compas', 'race'], ['compas', 'sex'], ['bank', 'age'], ['german', 'age'], ['german', 'sex'], ['meps', 'RACE'],['default', 'sex'], ['home', 'sex']]
